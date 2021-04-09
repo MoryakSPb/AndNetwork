@@ -26,4 +26,4 @@ jobs:
     - name: Build
       run: dotnet build "Server/AndNetwork.Server.csproj" --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test "Server/AndNetwork.Server.csproj" --no-build --verbosity normal
