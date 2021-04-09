@@ -1,0 +1,84 @@
+﻿@using AndNetwork.Shared
+@using AndNetwork.Client.Pages
+@if (BasicVotes.Any())
+{
+    <div class="card mb-2 user-select-none">
+        <div class="card-body">
+            <h5 class="card-title">@Department.GetName()</h5>
+            <h6 class="card-subtitle mb-2 @(VotesRemaining > 0 ? "text-danger fw-bolder" : "text-success")">
+                Нераспределенные голоса: @(VotesRemaining)
+            </h6>
+            <ul class="list-group list-group-flush">
+                @foreach (ClanElectionVoteCandidate basicVote in BasicVotes)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>@basicVote.Member.ToString()</span>
+                        <div class="d-flex justify-content-between" style="width: 100px">
+                            <button type="button" class="btn badge rounded-pill bg-secondary" disabled="@(Parent.Locked || !(MyVotes[basicVote.Member.Id] > 0))" @onclick="_ => SetValue(basicVote.Member.Id, -1)">
+                                <span class="oi oi-minus"></span>
+                            </button>
+                            <strong>@(basicVote.Votes + MyVotes[basicVote.Member.Id])</strong>
+                            <button type="button" class="btn badge rounded-pill bg-secondary" disabled="@(Parent.Locked || !(UsedVotes < TotalVotes))" @onclick="_ => SetValue(basicVote.Member.Id, +1)">
+                                <span class="oi oi-plus"></span>
+                            </button>
+                        </div>
+                    </li>
+                }
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Против всех</span>
+                    <div class="d-flex justify-content-between" style="width: 100px">
+                        <button type="button" class="btn badge rounded-pill bg-secondary" disabled="@(Parent.Locked || !(AgainstAll > 0))" @onclick="_ => SetValue(null, -1)">
+                            <span class="oi oi-minus"></span>
+                        </button>
+                        <strong>@(TotalAgainstAll + AgainstAll)</strong>
+                        <button type="button" class="btn badge rounded-pill bg-secondary" disabled="@(Parent.Locked || !(UsedVotes < TotalVotes))" @onclick="_ => SetValue(null, +1)">
+                            <span class="oi oi-plus"></span>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+}
+
+
+@code
+{
+    public bool AddEnabled => TotalVotes > UsedVotes;
+    public bool RemoveEnabled => UsedVotes > 0;
+    private int TotalVotes => BasicVotes.Count;
+    private int UsedVotes => MyVotes.Values.Sum() + AgainstAll;
+    public int VotesRemaining
+    {
+        get
+        {
+            int result = TotalVotes - UsedVotes;
+            return result;
+        }
+    }
+    [Parameter]
+    public Elections Parent { get; set; }
+    [Parameter]
+    public ClanDepartmentEnum Department { get; set; }
+    [Parameter]
+    public List<ClanElectionVoteCandidate> BasicVotes { get; set; }
+    public Dictionary<int, int> MyVotes { get; set; }
+    [Parameter]
+    public int TotalAgainstAll { get; set; } = 0;
+    public int AgainstAll { get; set; } = 0;
+
+    protected override void OnInitialized()
+    {
+        MyVotes = BasicVotes.ToDictionary(x => x.Member.Id, _ => 0);
+        Parent.Votings.Add(this);
+    }
+
+    private void SetValue(int? id, int value)
+    {
+        if (id is null) AgainstAll += value;
+        else MyVotes[id.Value] += value;
+        Parent.Update();
+    }
+
+}

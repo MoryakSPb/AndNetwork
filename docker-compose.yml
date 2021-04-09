@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  server:
+    image: ${DOCKER_REGISTRY-}andnetworkserver
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "5258:80"
+    build:
+      context: .
+      dockerfile: Server/Dockerfile
+    depends_on: 
+      - postgres
+  postgres:
+    container_name: AndNetwork.Database
+    image: postgres:alpine
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - "~/AndNetwork8/data:/var/lib/postgresql/data"

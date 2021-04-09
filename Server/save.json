@@ -1,0 +1,3746 @@
+{
+  "Players": [
+    {
+      "Name": "MoryakSPb",
+      "RealName": "Александр",
+      "Department": 0,
+      "Post": 255,
+      "SteamId": 76561198109866439,
+      "DiscordId": 266672873882648577,
+      "VkId": 91777907,
+      "JoinDate": "2014-07-07T00:00:00Z"
+    },
+    {
+      "Name": "OptimX",
+      "RealName": "Михаил",
+      "Department": 1,
+      "Post": 200,
+      "SteamId": 76561198315885139,
+      "DiscordId": 368104130809692183,
+      "VkId": 26634216,
+      "JoinDate": "2018-09-23T00:00:00Z"
+    },
+    {
+      "Name": "Arvard",
+      "RealName": "Павел",
+      "Department": 3,
+      "Post": 150,
+      "SteamId": 76561198082297626,
+      "DiscordId": 167275432582971392,
+      "VkId": 193322825,
+      "JoinDate": "2016-05-10T00:00:00Z"
+    },
+    {
+      "Name": "mewthutojpn",
+      "RealName": "Даня",
+      "Department": 255,
+      "Post": 150,
+      "SteamId": 76561198230712388,
+      "DiscordId": 269863238357745684,
+      "VkId": 0,
+      "JoinDate": "2019-12-30T00:00:00Z"
+    },
+    {
+      "Name": "ScriptedEngineer",
+      "RealName": "Денис",
+      "Department": 255,
+      "Post": 125,
+      "SteamId": 76561198287426145,
+      "DiscordId": 280066630963167242,
+      "VkId": 199848051,
+      "JoinDate": "2018-08-29T00:00:00Z"
+    },
+    {
+      "Name": "BigSmoke",
+      "RealName": "Филипп",
+      "Department": 255,
+      "Post": 125,
+      "SteamId": 76561198121632218,
+      "DiscordId": 252075757839319040,
+      "VkId": 171667351,
+      "JoinDate": "2020-01-03T00:00:00Z"
+    },
+    {
+      "Name": "VERY GOOD",
+      "RealName": "Алексей",
+      "Department": 1,
+      "Post": 125,
+      "SteamId": 76561198086321896,
+      "DiscordId": 208341960442904586,
+      "VkId": 59066529,
+      "JoinDate": "2019-08-23T00:00:00Z"
+    },
+    {
+      "Name": "s1f",
+      "RealName": "Алексей",
+      "Department": 1,
+      "Post": 125,
+      "SteamId": 76561198048081701,
+      "DiscordId": 243393358817394688,
+      "VkId": 48232250,
+      "JoinDate": "2020-05-02T00:00:00"
+    },
+    {
+      "Name": "Artika",
+      "RealName": "Артём",
+      "Department": 3,
+      "Post": 125,
+      "SteamId": 76561198245677532,
+      "DiscordId": 300670642326339584,
+      "VkId": 304360191,
+      "JoinDate": "2020-03-29T00:00:00"
+    },
+    {
+      "Name": "Rosa Katze",
+      "RealName": "Ростислав",
+      "Department": 3,
+      "Post": 125,
+      "SteamId": 76561198135094536,
+      "DiscordId": 420949819591229440,
+      "VkId": 0,
+      "JoinDate": "2020-01-12T00:00:00"
+    },
+    {
+      "Name": "Alebado",
+      "RealName": "Альберт",
+      "Department": 1,
+      "Post": 125,
+      "SteamId": 76561198054208130,
+      "DiscordId": 421344270604173353,
+      "VkId": 0,
+      "JoinDate": "2019-08-23T00:00:00Z"
+    },
+    {
+      "Name": "IRIDIY",
+      "RealName": "Юрий",
+      "Department": 2,
+      "Post": 100,
+      "SteamId": 76561198171656446,
+      "DiscordId": 480000003847487498,
+      "VkId": 136943398,
+      "JoinDate": "2020-05-29T00:00:00"
+    },
+    {
+      "Name": "Sabre",
+      "RealName": "Богдан",
+      "Department": 1,
+      "Post": 100,
+      "SteamId": 76561198123392105,
+      "DiscordId": 333267118566932502,
+      "VkId": 519815882,
+      "JoinDate": "2019-01-12T00:00:00Z"
+    },
+    {
+      "Name": "Cerafim",
+      "RealName": "Сергей",
+      "Department": 2,
+      "Post": 75,
+      "SteamId": 76561198805557692,
+      "DiscordId": 296987927932698624,
+      "VkId": 40273869,
+      "JoinDate": "2018-03-23T00:00:00"
+    },
+    {
+      "Name": "anonumous",
+      "RealName": "Айнур",
+      "Department": 255,
+      "Post": 75,
+      "SteamId": 76561198061362041,
+      "DiscordId": 248520700585967617,
+      "VkId": 149096140,
+      "JoinDate": "2019-03-01T00:00:00Z"
+    },
+    {
+      "Name": "Insane Engineer",
+      "RealName": "Димон",
+      "Department": 2,
+      "Post": 75,
+      "SteamId": 76561198221773428,
+      "DiscordId": 386527860682129408,
+      "VkId": 443188470,
+      "JoinDate": "2020-03-29T00:00:00"
+    },
+    {
+      "Name": "DeVindi",
+      "RealName": "Артём",
+      "Department": 255,
+      "Post": 75,
+      "SteamId": 76561198269558081,
+      "DiscordId": 358806001249550347,
+      "VkId": 316614260,
+      "JoinDate": "2020-05-22T00:00:00"
+    },
+    {
+      "Name": "Tiat",
+      "RealName": "Макс",
+      "Department": 1,
+      "Post": 50,
+      "SteamId": 76561198828709250,
+      "DiscordId": 247999629495500801,
+      "VkId": 136403954,
+      "JoinDate": "2020-07-17T00:00:00"
+    },
+    {
+      "Name": "Kenny_ufa",
+      "RealName": "Егор",
+      "Department": 1,
+      "Post": 50,
+      "SteamId": 76561198028745099,
+      "DiscordId": 215152497365483521,
+      "VkId": 208063409,
+      "JoinDate": "2020-05-19T00:00:00"
+    },
+    {
+      "Name": "ЭLЬDAR",
+      "RealName": "Эльдар",
+      "Department": 255,
+      "Post": 50,
+      "SteamId": 76561198294058033,
+      "DiscordId": 353649094356369409,
+      "VkId": 93690095,
+      "JoinDate": "2019-03-26T00:00:00Z"
+    },
+    {
+      "Name": "СКАЙФ",
+      "RealName": "Антон",
+      "Department": 1,
+      "Post": 50,
+      "SteamId": 76561198167125167,
+      "DiscordId": 252501891517251584,
+      "VkId": 282372690,
+      "JoinDate": "2020-06-05T00:00:00"
+    },
+    {
+      "Name": "Ranny",
+      "RealName": "Даниил",
+      "Department": 3,
+      "Post": 25,
+      "SteamId": 76561198257350335,
+      "DiscordId": 428549407504465920,
+      "VkId": 399028224,
+      "JoinDate": "2019-12-30T00:00:00Z"
+    },
+    {
+      "Name": "FlaCher",
+      "RealName": "Максим",
+      "Department": 255,
+      "Post": 25,
+      "SteamId": 76561198157572189,
+      "DiscordId": 346714119845445632,
+      "VkId": 192562182,
+      "JoinDate": "2019-12-30T00:00:00Z"
+    },
+    {
+      "Name": "PilotZ",
+      "RealName": "Илья",
+      "Department": 3,
+      "Post": 25,
+      "SteamId": 76561198128657189,
+      "DiscordId": 257566626264776704,
+      "VkId": 210911294,
+      "JoinDate": "2020-05-22T00:00:00"
+    },
+    {
+      "Name": "MyreX",
+      "RealName": "Александр",
+      "Department": 3,
+      "Post": 25,
+      "SteamId": 76561198000751710,
+      "DiscordId": 239521804295602176,
+      "VkId": 96393482,
+      "JoinDate": "2020-06-14T00:00:00"
+    },
+    {
+      "Name": "Колямбда Лямбда",
+      "RealName": "Колян",
+      "Department": 255,
+      "Post": 25,
+      "SteamId": 76561198394892525,
+      "DiscordId": 340526772494008321,
+      "VkId": 411395258,
+      "JoinDate": "2018-12-10T00:00:00Z"
+    },
+    {
+      "Name": "Kimsan4",
+      "RealName": "",
+      "Department": 1,
+      "Post": 25,
+      "SteamId": 76561198082645693,
+      "DiscordId": 308993868525862912,
+      "VkId": 0,
+      "JoinDate": "2020-06-05T00:00:00"
+    },
+    {
+      "Name": "FlyingDebil",
+      "RealName": "Георгий",
+      "Department": 255,
+      "Post": 25,
+      "SteamId": 76561198113154464,
+      "DiscordId": 225915173351849984,
+      "VkId": 205849648,
+      "JoinDate": "2020-06-14T00:00:00"
+    },
+    {
+      "Name": "Alter",
+      "RealName": "Никита",
+      "Department": 3,
+      "Post": 25,
+      "SteamId": 76561198217632523,
+      "DiscordId": 697321083938013237,
+      "VkId": 560555091,
+      "JoinDate": "2020-06-21T00:00:00"
+    },
+    {
+      "Name": "ILMAX",
+      "RealName": "",
+      "Department": 255,
+      "Post": 25,
+      "SteamId": 76561198165308489,
+      "DiscordId": 411799355410874370,
+      "VkId": 380578874,
+      "JoinDate": "2020-08-11T00:00:00"
+    },
+    {
+      "Name": "Baskervil",
+      "RealName": "Евгений",
+      "Department": 1,
+      "Post": 25,
+      "SteamId": 76561198032429739,
+      "DiscordId": 315543523648602112,
+      "VkId": 34658453,
+      "JoinDate": "2020-06-14T00:00:00"
+    },
+    {
+      "Name": "Nammit4",
+      "RealName": "Игорь",
+      "Department": 1,
+      "Post": 25,
+      "SteamId": 76561198163239419,
+      "DiscordId": 307579561397452820,
+      "VkId": 131664124,
+      "JoinDate": "2020-06-14T00:00:00"
+    },
+    {
+      "Name": "MEGA_KING",
+      "RealName": "",
+      "Department": 3,
+      "Post": 25,
+      "SteamId": 76561198081475608,
+      "DiscordId": 571326639854583838,
+      "VkId": 0,
+      "JoinDate": "2020-06-14T00:00:00"
+    },
+    {
+      "Name": "VISP",
+      "RealName": "Тимофей",
+      "Department": 255,
+      "Post": 25,
+      "SteamId": 76561198328094873,
+      "DiscordId": 416293262408548354,
+      "VkId": 432935288,
+      "JoinDate": "2020-06-14T00:00:00"
+    },
+    {
+      "Name": "HateYourLine",
+      "RealName": "Никита",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198085549856,
+      "DiscordId": 305355430752944129,
+      "VkId": 540296597,
+      "JoinDate": "2020-07-21T00:00:00"
+    },
+    {
+      "Name": "KapLeX",
+      "RealName": "Александр",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198105074115,
+      "DiscordId": 482898802777260032,
+      "VkId": 24086481,
+      "JoinDate": "2019-09-30T00:00:00Z"
+    },
+    {
+      "Name": "Genius8787",
+      "RealName": "Денис",
+      "Department": 255,
+      "Post": 1,
+      "SteamId": 76561198070296634,
+      "DiscordId": 232226132684963851,
+      "VkId": 415244308,
+      "JoinDate": "2020-01-03T00:00:00Z"
+    },
+    {
+      "Name": "FOMA",
+      "RealName": "Андрей",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198442099083,
+      "DiscordId": 428112738170961921,
+      "VkId": 386093611,
+      "JoinDate": "2020-01-29T00:00:00"
+    },
+    {
+      "Name": "Ðâ\u0159\u0137\u0120\u1EB5м\u0115\u0159",
+      "RealName": "Даниил",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198005786802,
+      "DiscordId": 258516646757400576,
+      "VkId": 293826638,
+      "JoinDate": "2020-02-23T00:00:00"
+    },
+    {
+      "Name": "Kyzmingod",
+      "RealName": "Виталий",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198035352944,
+      "DiscordId": 281040624461807617,
+      "VkId": 57452239,
+      "JoinDate": "2020-03-18T00:00:00"
+    },
+    {
+      "Name": "Udeck",
+      "RealName": "",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198007170484,
+      "DiscordId": 650855500698746910,
+      "VkId": 543229353,
+      "JoinDate": "2020-04-17T00:00:00"
+    },
+    {
+      "Name": "shfabra",
+      "RealName": "Илья",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561199008473326,
+      "DiscordId": 649260634738917406,
+      "VkId": 537595748,
+      "JoinDate": "2020-05-11T00:00:00"
+    },
+    {
+      "Name": "trololoh1",
+      "RealName": "Степан",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198832509917,
+      "DiscordId": 509731981807058964,
+      "VkId": 367691086,
+      "JoinDate": "2020-05-23T00:00:00"
+    },
+    {
+      "Name": "Gtroling",
+      "RealName": "Мишаня",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198273769151,
+      "DiscordId": 353788819633471489,
+      "VkId": 343091148,
+      "JoinDate": "2020-05-29T00:00:00"
+    },
+    {
+      "Name": "hismram",
+      "RealName": "",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198267102500,
+      "DiscordId": 394918257775083540,
+      "VkId": 0,
+      "JoinDate": "2020-06-06T00:00:00"
+    },
+    {
+      "Name": "Ej",
+      "RealName": "Руслан",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198852712194,
+      "DiscordId": 344402303845007362,
+      "VkId": 35187068,
+      "JoinDate": "2020-06-21T00:00:00"
+    },
+    {
+      "Name": "РЭЧ",
+      "RealName": "Жасик",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198886483002,
+      "DiscordId": 501775944227487748,
+      "VkId": 475188496,
+      "JoinDate": "2020-06-22T00:00:00"
+    },
+    {
+      "Name": "Русский Пират",
+      "RealName": "Никита",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198851691827,
+      "DiscordId": 351282455073783810,
+      "VkId": 101140152,
+      "JoinDate": "2020-06-25T00:00:00"
+    },
+    {
+      "Name": "GoodBee",
+      "RealName": "Александр",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198187595919,
+      "DiscordId": 269752884965539840,
+      "VkId": 152913421,
+      "JoinDate": "2020-06-29T00:00:00"
+    },
+    {
+      "Name": "Skamini",
+      "RealName": "Максим",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198123842736,
+      "DiscordId": 470928966845464576,
+      "VkId": 4925969,
+      "JoinDate": "2020-07-07T00:00:00"
+    },
+    {
+      "Name": "Zethyr",
+      "RealName": "Денис",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198147274694,
+      "DiscordId": 321322790063964162,
+      "VkId": 224206516,
+      "JoinDate": "2020-07-07T00:00:00"
+    },
+    {
+      "Name": "MrZoom777",
+      "RealName": "Валерий",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198288728346,
+      "DiscordId": 317883656486256650,
+      "VkId": 283588354,
+      "JoinDate": "2020-07-11T00:00:00"
+    },
+    {
+      "Name": "Vorona",
+      "RealName": "Кирилл",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198020570105,
+      "DiscordId": 334768525447135232,
+      "VkId": 2675269,
+      "JoinDate": "2020-07-28T00:00:00"
+    },
+    {
+      "Name": "Lancer",
+      "RealName": "Артём",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198964306103,
+      "DiscordId": 286168576929431553,
+      "VkId": 346948867,
+      "JoinDate": "2020-08-22T00:00:00"
+    },
+    {
+      "Name": "Fragment",
+      "RealName": "Егор",
+      "Department": 0,
+      "Post": 1,
+      "SteamId": 76561198158543480,
+      "DiscordId": 325308316781641729,
+      "VkId": 164277372,
+      "JoinDate": "2020-08-23T00:00:00"
+    }
+  ],
+  "Awards": [
+    {
+      "Idr": 102,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "0001-01-01T00:00:00",
+      "Description": "За поддержку клана в тяжелые времена"
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "0001-01-01T00:00:00",
+      "Description": "За содействие при разработке нового устава"
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "0001-01-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "0001-01-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "0001-01-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "0001-01-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "0001-01-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "0001-01-01T00:00:00",
+      "Description": "За разработку кораблей серии \u0022ТОК\u0022"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "0001-01-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "0001-01-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "0001-02-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "2016-02-05T00:00:00",
+      "Description": "За участие в тренировке и успешное выполнение задачи"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-08T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-09T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-09T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-09T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2017-01-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2017-01-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-17T00:00:00",
+      "Description": "\u2026за подержание работоспособности сервера"
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2017-01-17T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-17T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2017-01-17T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-01-17T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2017-01-17T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2017-02-04T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198010214145,
+      "Time": "2017-02-05T00:00:00",
+      "Description": "За участие в тренировке и успешное выполнение задачи"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2017-02-05T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2017-02-24T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2017-10-27T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 105,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2018-03-23T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2018-03-23T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-03-23T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2018-03-24T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-03-24T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561197997689242,
+      "Time": "2018-03-24T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-07-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-07-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 107,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2018-08-12T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 107,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2018-08-22T00:00:00",
+      "Description": "За продолжительное предствление интересов клана"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-09-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198810977572,
+      "Time": "2018-09-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-09-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 205,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2018-09-01T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-09-15T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2018-09-15T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-09-15T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2018-09-15T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 205,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2018-09-15T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2018-09-15T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2018-10-22T00:00:00",
+      "Description": "За активную разработку клановой сети"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2018-10-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2018-10-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2018-10-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198318531923,
+      "Time": "2018-10-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198318531923,
+      "Time": "2018-10-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2018-10-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2018-11-03T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2018-12-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2018-12-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198318531923,
+      "Time": "2018-12-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2018-12-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 102,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2019-01-20T00:00:00",
+      "Description": "За смелое руководство отрядом «Термит»"
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2019-01-20T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2019-01-20T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2019-01-20T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198318531923,
+      "Time": "2019-01-20T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2019-01-20T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2019-01-20T00:00:00",
+      "Description": "За участие в боевой тренировке"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2019-01-20T00:00:00",
+      "Description": "За участие в боевой тренировке"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198318531923,
+      "Time": "2019-01-20T00:00:00",
+      "Description": "За участие в боевой тренировке"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-07-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-07-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-07-30T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198088822098,
+      "Time": "2019-08-11T00:00:00",
+      "Description": "За участие в учениях клана перед EW"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-08-11T00:00:00",
+      "Description": "За участие в учениях клана перед EW"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2019-08-11T00:00:00",
+      "Description": "За участие в учениях клана перед EW"
+    },
+    {
+      "Idr": 105,
+      "PlayerSteamId": 76561198147636638,
+      "Time": "2019-08-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 105,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2019-08-22T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198119982900,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198088822098,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198061362041,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198294058033,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198281092388,
+      "Time": "2019-08-25T00:00:00",
+      "Description": "За участие в учениях по захвату корабля"
+    },
+    {
+      "Idr": 102,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2019-09-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 102,
+      "PlayerSteamId": 76561198023625054,
+      "Time": "2019-09-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2019-09-28T00:00:00",
+      "Description": "За разработку программы SE BlueprintEditor"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198119982900,
+      "Time": "2019-09-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198088822098,
+      "Time": "2019-09-28T00:00:00",
+      "Description": "За участие в мероприятии \u0022Захват пространств в космосе\u0022"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-09-28T00:00:00",
+      "Description": "За участие в мероприятии \u0022Захват пространств в космосе\u0022"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198294058033,
+      "Time": "2019-09-28T00:00:00",
+      "Description": "За победу в мероприятии \u0022Захват пространств в космосе\u0022"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198061362041,
+      "Time": "2019-09-28T00:00:00",
+      "Description": "За победу в мероприятии \u0022Захват пространств в космосе\u0022"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198146847705,
+      "Time": "2019-09-28T00:00:00",
+      "Description": "За победу в мероприятии \u0022Захват пространств в космосе\u0022"
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198828709250,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198061362041,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198088822098,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198127356193,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198081157824,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198281092388,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198828709250,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198146847705,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2019-10-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2019-12-28T00:00:00",
+      "Description": "За создание идеи сводных отрядов"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198119104962,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198061362041,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198281092388,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198081157824,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198119104962,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198061362041,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198081157824,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198281092388,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198119104962,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2019-12-28T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2019-12-31T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 103,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2019-12-31T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2019-12-31T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2019-12-31T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2019-12-31T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 105,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-01-02T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-01-02T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-01-02T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198085549856,
+      "Time": "2020-01-02T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198119982900,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198105074115,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198127356193,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198445311039,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198879190960,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198281092388,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198105373539,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198109866439,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198085549856,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198139446603,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198318531923,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198020141563,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198157572189,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198088822098,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198019904985,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198081157824,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198061362041,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198239288632,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198194971507,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198810977572,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198146847705,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198071983288,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198119104962,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198885799456,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198115645780,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198859628441,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198394892525,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198294058033,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198242953214,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198257350335,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198004901040,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198174217621,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198032541990,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198828709250,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198855298461,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198230266756,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198023604199,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198040102635,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 201,
+      "PlayerSteamId": 76561198184306871,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "Выдана в процессе перехода к новому уставу"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198157572189,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198081157824,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198257350335,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198281092388,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198085549856,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198085549856,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198081157824,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198281092388,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198257350335,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198157572189,
+      "Time": "2020-01-06T00:00:00",
+      "Description": "За участие в тренировке 05.01.2020"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-01-10T00:00:00",
+      "Description": "За проведение боевой тренировки отряда \u0022Альфа\u0022 сводного отряда \u0022Малахит\u0022 8 января 2020 года"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198098335598,
+      "Time": "2020-01-10T00:00:00",
+      "Description": "За участие в боевой тренировке отряда \u0022Альфа\u0022 сводного отряда \u0022Малахит\u0022 8 января 2020 года"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-01-10T00:00:00",
+      "Description": "За участие в боевой тренировке отряда \u0022Альфа\u0022 сводного отряда \u0022Малахит\u0022 8 января 2020 года"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198830399648,
+      "Time": "2020-01-10T00:00:00",
+      "Description": "За участие в боевой тренировке отряда \u0022Альфа\u0022 сводного отряда \u0022Малахит\u0022 8 января 2020 года"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-01-10T00:00:00",
+      "Description": "За участие в боевой тренировке отряда \u0022Альфа\u0022 сводного отряда \u0022Малахит\u0022 8 января 2020 года"
+    },
+    {
+      "Idr": 105,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 110,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": "За командование сводным отрядом «Малахит»"
+    },
+    {
+      "Idr": 110,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": "За командование I бригадой"
+    },
+    {
+      "Idr": 110,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": "За командование III бригадой"
+    },
+    {
+      "Idr": 110,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": "За командоване IV бригадой"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198119104962,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198032541990,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198004901040,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198157572189,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2020-02-06T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 102,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 102,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 111,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 111,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 111,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 111,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 112,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 112,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198032541990,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 205,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 205,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198081782812,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198032541990,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198030317289,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198056455262,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198004901040,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198257350335,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198828709250,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198098335598,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198873929389,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198070296634,
+      "Time": "2020-03-21T00:00:00Z",
+      "Description": "За участие в I бригаде"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198016139572,
+      "Time": "2020-03-22T00:00:00Z",
+      "Description": "За участие в тесте секретаря"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-03-22T00:00:00Z",
+      "Description": "За участие в тесте секретаря"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-03-22T00:00:00Z",
+      "Description": "За участие в тесте секретаря"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-03-22T00:00:00Z",
+      "Description": "За участие в тесте секретаря"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-03-22T00:00:00Z",
+      "Description": "За участие в ивенте сервера Прометей"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198137976341,
+      "Time": "2020-03-22T00:00:00Z",
+      "Description": "За участие в ивенте сервера Прометей"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": "За участие в мероприятии «S-Engineer\u0027s Tournament: Part 1 - Grand Racing»"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198221773428,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": "За участие в мероприятии «S-Engineer\u0027s Tournament: Part 1 - Grand Racing»"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": "За участие в мероприятии «S-Engineer\u0027s Tournament: Part 1 - Grand Racing»"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": "За участие в мероприятии «S-Engineer\u0027s Tournament: Part 1 - Grand Racing»"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198221773428,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": "За победу в мероприятии «S-Engineer\u0027s Tournament: Part 1 - Grand Racing»"
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-01T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 110,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": "За командование V бригадой \u0022Гефест\u0022"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198272216482,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198272216482,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198272216482,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198805557692,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198272216482,
+      "Time": "2020-04-21T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-09T00:00:00Z",
+      "Description": "За разработку чертежа для участия в мероприятии MAXIMUS Tournament Part 2"
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-05-09T00:00:00Z",
+      "Description": "За разработку чертежа для участия в мероприятии MAXIMUS Tournament Part 2"
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-05-09T00:00:00Z",
+      "Description": "За разработку чертежа для участия в мероприятии MAXIMUS Tournament Part 2"
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-05-09T00:00:00Z",
+      "Description": "За разработку чертежа для участия в мероприятии MAXIMUS Tournament Part 2"
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-09T00:00:00Z",
+      "Description": "За разработку чертежа для участия в мероприятии MAXIMUS Tournament Part 2"
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198221773428,
+      "Time": "2020-05-09T00:00:00Z",
+      "Description": "За разработку чертежа для участия в мероприятии MAXIMUS Tournament Part 2"
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За занятие первого места на турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 110,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За командование VI бригадой"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198221773428,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198287426145,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198221773428,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198121632218,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": "За участие в турнире \u0022MAXIMUS Tournament Part 2\u0022"
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-11T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-19T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-05-19T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-19T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-19T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-05-19T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-19T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-23T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-05-24T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-24T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198269558081,
+      "Time": "2020-05-25T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198028745099,
+      "Time": "2020-05-25T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-05-25T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198269558081,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198128657189,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198128657189,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198269558081,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198028745099,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-05-29T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 108,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198257350335,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198105074115,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198028745099,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198028745099,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198257350335,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198105074115,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-05-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-05T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-06T00:00:00",
+      "Description": "За монтаж видео"
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-06-06T00:00:00",
+      "Description": "За монтаж видео"
+    },
+    {
+      "Idr": 110,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-06T00:00:00",
+      "Description": "За командование IX бригадой"
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198315885139,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198128657189,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198028745099,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198269558081,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 206,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198128657189,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198269558081,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198028745099,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-06T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-11T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-14T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 111,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198167125167,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082645693,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198082645693,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198167125167,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 208,
+      "PlayerSteamId": 76561198230712388,
+      "Time": "2020-06-15T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-18T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-06-21T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-21T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 204,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-25T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За выдвижение кандидатуры на выборах советников"
+    },
+    {
+      "Idr": 104,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За выдвижение кандидатуры на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198221773428,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198328094873,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198081475608,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За участие в тренировке 28 июня"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За участие в тренировке 28 июня"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198032429739,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198167125167,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198000751710,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198061362041,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За участие в тренировке 28 июня"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198221773428,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198394892525,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198163239419,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198113154464,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198269558081,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За участие в тренировке 28 июня"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198054208130,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-06-30T00:00:00Z",
+      "Description": "За голосование на выборах советников"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-07-07T00:00:00Z",
+      "Description": "За участие в тренировке в военном отделе"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198000751710,
+      "Time": "2020-07-07T00:00:00Z",
+      "Description": "За участие в тренировке в военном отделе"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198113154464,
+      "Time": "2020-07-07T00:00:00Z",
+      "Description": "За участие в тренировке в военном отделе"
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-07-07T00:00:00Z",
+      "Description": "За участие в тренировке в военном отделе"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-07-07T00:00:00Z",
+      "Description": "За победу в командном спарринге"
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-07-07T00:00:00Z",
+      "Description": "За победу в командном спарринге"
+    },
+    {
+      "Idr": 105,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-07-18T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198000751710,
+      "Time": "2020-07-18T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198082297626,
+      "Time": "2020-07-18T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-07-18T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-07-18T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 202,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-08-11T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198165308489,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198828709250,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198217632523,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 203,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198048081701,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198217632523,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198165308489,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198171656446,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198135094536,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198245677532,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198123392105,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    },
+    {
+      "Idr": 207,
+      "PlayerSteamId": 76561198086321896,
+      "Time": "2020-08-16T00:00:00",
+      "Description": ""
+    }
+  ],
+  "Brigades": [
+    {
+      "Number": 1,
+      "Name": "Рубин",
+      "CreateDate": "2020-01-14T00:00:00",
+      "EndDate": "2020-03-14T00:00:00",
+      "Players": [
+        {
+          "RankLevel": 255,
+          "RankName": "Командир",
+          "PlayerId": 76561198086321896
+        },
+        {
+          "RankLevel": 200,
+          "RankName": "Заместитель командира",
+          "PlayerId": 76561198054208130
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198315885139
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198032541990
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198121632218
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198230712388
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198004901040
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198098335598
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198257350335
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198056455262
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198081782812
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198030317289
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198070296634
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198828709250
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198873929389
+        }
+      ],
+      "Description": "Задача: экспедиция на сервер Терра Нова\r\nСервер - цель: steam://connect/79.165.254.80:27016\r\nКонтакты сервера: https://discordapp.com/invite/B4CmUsT",
+      "LegateId": null
+    },
+    {
+      "Number": 2,
+      "Name": "Алмаз",
+      "CreateDate": "2020-01-14T00:00:00",
+      "EndDate": "2020-02-01T00:00:00",
+      "Players": [
+        {
+          "RankLevel": 255,
+          "RankName": "Командир",
+          "PlayerId": 76561198016139572
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198098335598
+        }
+      ],
+      "Description": "Изучение скриптов",
+      "LegateId": null
+    },
+    {
+      "Number": 3,
+      "Name": "Коршуны",
+      "CreateDate": "2020-01-14T00:00:00",
+      "EndDate": "2020-02-01T00:00:00",
+      "Players": [
+        {
+          "RankLevel": 255,
+          "RankName": "Командир",
+          "PlayerId": 76561198121632218
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198230712388
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198056455262
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198257350335
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198157572189
+        }
+      ],
+      "Description": "Боевые тренировки",
+      "LegateId": null
+    },
+    {
+      "Number": 4,
+      "Name": "Афина",
+      "CreateDate": "2020-01-14T00:00:00",
+      "EndDate": "2020-02-01T00:00:00",
+      "Players": [
+        {
+          "RankLevel": 255,
+          "RankName": "Командир",
+          "PlayerId": 76561198315885139
+        }
+      ],
+      "Description": "Тестирование и обучение новых игроков",
+      "LegateId": null
+    },
+    {
+      "Number": 5,
+      "Name": "Гефест",
+      "CreateDate": "2020-03-20T00:00:00",
+      "EndDate": "2020-04-03T00:00:00",
+      "Players": [
+        {
+          "RankLevel": 255,
+          "RankName": "Командир",
+          "PlayerId": 76561198121632218
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198082297626
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198137976341
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198230712388
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198016139572
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198054208130
+        },
+        {
+          "RankLevel": 1,
+          "RankName": "",
+          "PlayerId": 76561198805557692
+        }
+      ],
+      "Description": "Подавление всех агрессивных фракций, абсолютное военное превосходство на сервере Прометей",
+      "LegateId": null
+    }
+  ]
+}

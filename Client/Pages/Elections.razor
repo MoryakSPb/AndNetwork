@@ -1,0 +1,104 @@
+﻿@page "/elections/{MemberId}/{Code}"
+@using System.Collections.Concurrent
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <Spinner/>
+</div>
+
+<div class="mx-auto mb-3" style="max-width: 33vw; min-width: 500px">
+    <div>
+        @if (Votes is null)
+        {
+            <Spinner/>
+        }
+        else
+        {
+            @if (Votes.Count > 0)
+            {
+                <div class="mb-3">
+                    <h1>Клан «Андромеда»</h1>
+                    <h3>Выборы советников</h3>
+                    <small class="text-muted">
+                        Распределите все голоса между кандидатами и вариантом «Против всех».
+                        После распределния голосов нажмите кнопку «Отправить» в конце страницы.
+                        Помните, что вы не сможете переназначить голоса после отправки!
+                    </small>
+                </div>
+                @foreach (KeyValuePair<ClanDepartmentEnum, ClanElectionVote> vote in Votes)
+                {
+                    <Voting BasicVotes="@vote.Value.Votes" Department="vote.Key" TotalAgainstAll="vote.Value.AgainstAll" Parent="this"/>
+                }
+                <button id="send" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="width: 100%" disabled="@(Locked || !SendEnable)" @onclick="_ => Send()">
+                    @(Locked ? "Отправка…" : "Отправить")
+                </button>
+            }
+            else
+            {
+                <h2>Нет доступных голосований</h2>
+                <span>Похоже, вы уже проголосовали или ваш ключ доступа неверен</span>
+            }
+        }
+
+    </div>
+</div>
+
+@code
+{
+    public Dictionary<ClanDepartmentEnum, ClanElectionVote> Votes { get; set; }
+    [Inject]
+    public NavigationManager Navigation { get; set; }
+    [Inject]
+    public HttpClient Http { get; set; }
+    [Parameter]
+    public string Code { get; set; }
+    [Parameter]
+    public string MemberId { get; set; }
+    public List<Voting> Votings { get; set; } = new();
+    [Parameter]
+    public bool SendEnable { get; set; }
+    [Parameter]
+    public bool Locked { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        await Setup();
+    }
+
+    private async Task Setup()
+    {
+        Dictionary<ClanDepartmentEnum, ClanElectionVote> result = new();
+        foreach (ClanDepartmentEnum department in Enum.GetValues<ClanDepartmentEnum>().Where(x => x > ClanDepartmentEnum.None))
+        {
+            try
+            {
+                ClanElectionVote x = await Http.GetFromJsonAsync<ClanElectionVote>($"api/Election/{MemberId}/{department:D}/{Code}");
+                result.Add(department, x);
+            }
+            catch (HttpRequestException) { }
+        }
+        Votes = result;
+    }
+
+    internal void Update()
+    {
+        SendEnable = Votings.Count > 0 && Votings.All(x => x.VotesRemaining == 0);
+        StateHasChanged();
+    }
+
+    private void Send()
+    {
+        DateTime time = DateTime.UtcNow;
+        Locked = true;
+        ConcurrentDictionary<ClanDepartmentEnum, bool> results = new();
+        ParallelLoopResult loopResult = Parallel.ForEach(Votings, async voting =>
+        {
+            Dictionary<int, int> votes = voting.MyVotes.ToDictionary(x => x.Key, x => x.Value);
+            if (voting.AgainstAll > 0) votes.Add(0, voting.AgainstAll);
+            HttpResponseMessage result = await Http.PostAsJsonAsync($"api/Election/{MemberId}/{voting.Department:D}/{Code}", votes);
+            results.AddOrUpdate(voting.Department, result.IsSuccessStatusCode, (_, _) => throw new Exception("Update dictionary"));
+        });
+
+        Console.WriteLine(DateTime.UtcNow - time);
+        Navigation.NavigateTo(!loopResult.IsCompleted || results.Any(x => !x.Value) ? "/elections/fail" : "/elections/done");
+    }
+}

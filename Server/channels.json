@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "DiscordId": 0,
+      "Position": 1,
+      "Name": "Текстовые каналы"
+    },
+    {
+      "DiscordId": 0,
+      "Position": 2,
+      "Name": "Голосовые каналы"
+    },
+    {
+      "DiscordId": 0,
+      "Position": 3,
+      "Name": "Совет"
+    },
+    {
+      "DiscordId": 0,
+      "Position": 2147483647,
+      "Name": "Архив"
+    }
+  ],
+  "channels": [
+    {
+      "DiscordId": 0,
+      "Name": "вступить",
+      "CategoryPosition": null,
+      "ChannelPosition": 1,
+      "Type": "text",
+      "EveryonePermissions": "read",
+      "MemberPermissions": "read",
+      "AdvisorPermissions": "moderator",
+      "DepartmentsPermissions": [
+        {
+          "Department": "agitation",
+          "Permissions": "priority"
+        }
+      ],
+      "DruzhinaId": null,
+      "ProgramId": null
+    },
+    {
+      "DiscordId": 0,
+      "Name": "основной",
+      "CategoryPosition": 1,
+      "ChannelPosition": 1,
+      "Type": "text",
+      "EveryonePermissions": "none",
+      "MemberPermissions": "write",
+      "AdvisorPermissions": "moderator",
+      "DepartmentsPermissions": [
+        {
+          "Department": "agitation",
+          "Permissions": "priority"
+        }
+      ],
+      "DruzhinaId": null,
+      "ProgramId": null
+    },
+    {
+      "DiscordId": 0,
+      "Name": "открытый_канал",
+      "CategoryPosition": 1,
+      "ChannelPosition": 100000,
+      "Type": "text",
+      "EveryonePermissions": "write",
+      "MemberPermissions": "write",
+      "AdvisorPermissions": "moderator",
+      "DepartmentsPermissions": [],
+      "DruzhinaId": null,
+      "ProgramId": null
+    },
+    {
+      "DiscordId": 0,
+      "Name": "Открытый канал",
+      "CategoryPosition": 2,
+      "ChannelPosition": 100000,
+      "Type": "voice",
+      "EveryonePermissions": "write",
+      "MemberPermissions": "write",
+      "AdvisorPermissions": "moderator",
+      "DepartmentsPermissions": [],
+      "DruzhinaId": null,
+      "ProgramId": null
+    }
+  ]
+}
