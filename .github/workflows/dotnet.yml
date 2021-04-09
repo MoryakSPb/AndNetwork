@@ -24,6 +24,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore "Server/AndNetwork.Server.csproj"
     - name: Build
-      run: dotnet build "AndNetwork.Server.csproj" --no-restore
+      run: dotnet build "Server/AndNetwork.Server.csproj" --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
