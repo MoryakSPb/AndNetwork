@@ -71,8 +71,6 @@ namespace AndNetwork.Server.Discord.Channels
             if (DruzhinaId is not null)
             {
                 if (ProgramId is not null) throw new ArgumentException();
-                ClanMember advisor = advisors?[Druzhina.Department];
-                if (advisor is not null) yield return new Overwrite(advisor.DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
                 foreach (ClanDruzhinaMember druzhinaMember in Druzhina.ActiveMembers)
                 {
                     DiscordPermissionsFlags permissions = druzhinaMember.Position switch
@@ -85,6 +83,10 @@ namespace AndNetwork.Server.Discord.Channels
                     };
                     yield return new Overwrite(druzhinaMember.Member.DiscordId, PermissionTarget.User, permissions.ToOverwritePermissions());
                 }
+
+                ClanMember advisor = advisors?[Druzhina.Department];
+                Console.WriteLine(DruzhinaId + Druzhina?.Department + advisor?.Nickname);
+                if (advisor is not null) yield return new Overwrite(advisor.DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
             }
             else
                 foreach (ClanMember member in Program.Members)
