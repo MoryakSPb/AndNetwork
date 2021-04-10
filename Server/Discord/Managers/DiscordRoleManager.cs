@@ -87,21 +87,5 @@ namespace AndNetwork.Server.Discord.Managers
                 if (userRoles.Count > 0) await user.RemoveRolesAsync(userRoles);
             }
         }
-
-        public async Task UpdateDruzhina(ClanDruzhina druzhina, ClanContext data)
-        {
-            Dictionary<ClanDepartmentEnum, ClanMember> advisors = await data.Members.AsQueryable().Where(x => x.Rank == ClanMemberRankEnum.Advisor).ToDictionaryAsync(x => x.Department, x => x);
-            foreach (DiscordChannelMetadata meta in data.Channels.AsQueryable().Where(x => x.DruzhinaId == druzhina.Id).ToArray()) await UpdateChannel(Bot.Guild.GetChannel(meta.DiscordId), meta, advisors);
-        }
-
-        public async Task UpdateProgram(ClanProgram program, ClanContext data)
-        {
-            foreach (DiscordChannelMetadata meta in data.Channels.AsQueryable().Where(x => x.ProgramId == program.Id).ToArray()) await UpdateChannel(Bot.Guild.GetChannel(meta.DiscordId), meta);
-        }
-
-        private async Task UpdateChannel(SocketGuildChannel channel, DiscordChannelMetadata meta, IReadOnlyDictionary<ClanDepartmentEnum, ClanMember> advisors = null)
-        {
-            await channel.ModifyAsync(options => { options.PermissionOverwrites = new Optional<IEnumerable<Overwrite>>(meta.ToOverwrites(this, advisors)); });
-        }
     }
 }

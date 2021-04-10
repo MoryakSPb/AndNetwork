@@ -60,7 +60,7 @@ namespace AndNetwork.Server.Discord.Channels
             return categoryCompare == 0 ? ChannelPosition.CompareTo(other.ChannelPosition) : categoryCompare;
         }
 
-        public IEnumerable<Overwrite> ToOverwrites(DiscordRoleManager roleManager, IReadOnlyDictionary<ClanDepartmentEnum, ClanMember> advisors = null)
+        public IEnumerable<Overwrite> ToOverwrites(DiscordRoleManager roleManager, IReadOnlyDictionary<ClanDepartmentEnum, ClanMember> advisors)
         {
             yield return new Overwrite(roleManager.EveryoneRole.Id, PermissionTarget.Role, EveryonePermissions.ToOverwritePermissions());
             yield return new Overwrite(roleManager.DefaultRole.Id, PermissionTarget.Role, MemberPermissions.ToOverwritePermissions());
@@ -85,7 +85,6 @@ namespace AndNetwork.Server.Discord.Channels
                 }
 
                 ClanMember advisor = advisors?[Druzhina.Department];
-                Console.WriteLine(DruzhinaId + Druzhina?.Department + advisor?.Nickname);
                 if (advisor is not null) yield return new Overwrite(advisor.DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
             }
             else

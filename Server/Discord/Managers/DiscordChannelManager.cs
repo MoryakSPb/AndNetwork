@@ -2,8 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using AndNetwork.Server.Discord.Channels;
+using AndNetwork.Shared;
+using AndNetwork.Shared.Enums;
 using Discord;
 using Discord.WebSocket;
+using Microsoft.EntityFrameworkCore;
 
 namespace AndNetwork.Server.Discord.Managers
 {
@@ -20,51 +23,16 @@ namespace AndNetwork.Server.Discord.Managers
 
         public async Task ScanChannels(ClanContext data)
         {
-            foreach (SocketCategoryChannel category in _bot.Guild.CategoryChannels)
-                if (await data.ChannelCategories.AnyAsync(x => x.DiscordId == category.Id))
-                    continue;
-            /*await data.ChannelCategories.AddAsync(new DiscordChannelCategory
-                                                      {
-                                                          DiscordId = category.Id,
-                                                          Name = category.Name,
-                                                          Position = category.Position,
-                                                      });*/
-
-            await data.SaveChangesAsync();
-            foreach (SocketTextChannel channel in _bot.Guild.TextChannels)
-                if (await data.Channels.AnyAsync(x => x.DiscordId == channel.Id))
-                    continue;
-            /*await data.Channels.AddAsync(new DiscordChannelMetadata
-                                             {
-                                                 DiscordId = channel.Id,
-                                                 Name = channel.Name,
-                                                 CategoryPosition = channel.Category?.Position,
-                                                 ChannelPosition = channel.Position,
-                                                 Type = DiscordChannelTypeEnum.Text,
-                                             });*/
-
-            foreach (SocketVoiceChannel channel in _bot.Guild.VoiceChannels)
-                if (await data.Channels.AnyAsync(x => x.DiscordId == channel.Id))
-                    continue;
-            /*await data.Channels.AddAsync(new DiscordChannelMetadata
-                                             {
-                                                 DiscordId = channel.Id,
-                                                 Name = channel.Name,
-                                                 CategoryPosition = channel.Category?.Position,
-                                                 ChannelPosition = channel.Position,
-                                                 Type = DiscordChannelTypeEnum.Voice,
-                                             });*/
-
-            await data.SaveChangesAsync();
+            //TODO: Implement scan
         }
 
         public async Task SyncChannels(ClanContext data)
         {
+            Dictionary<ClanDepartmentEnum, ClanMember> advisors = await data.Members.AsQueryable().Where(x => x.Rank == ClanMemberRankEnum.Advisor).ToDictionaryAsync(x => x.Department, x => x);
             foreach (DiscordChannelMetadata metadata in data.Channels.ToArray())
             {
                 SocketGuildChannel channel = _bot.Guild.GetChannel(metadata.DiscordId);
-
-                await channel.ModifyAsync(options => { options.PermissionOverwrites = new Optional<IEnumerable<Overwrite>>(metadata.ToOverwrites(_roleManager)); });
+                await channel.ModifyAsync(options => { options.PermissionOverwrites = new Optional<IEnumerable<Overwrite>>(metadata.ToOverwrites(_roleManager, advisors)); });
             }
         }
 
