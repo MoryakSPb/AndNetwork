@@ -71,10 +71,8 @@ namespace AndNetwork.Server.Discord.Channels
             if (DruzhinaId is not null)
             {
                 if (ProgramId is not null) throw new ArgumentException();
-                if (advisors is not null)
-                {
-                    yield return new Overwrite(advisors[Druzhina.Department].DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
-                }
+                ClanMember advisor = advisors?[Druzhina.Department];
+                if (advisor is not null) yield return new Overwrite(advisor.DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
                 foreach (ClanDruzhinaMember druzhinaMember in Druzhina.ActiveMembers)
                 {
                     DiscordPermissionsFlags permissions = druzhinaMember.Position switch
