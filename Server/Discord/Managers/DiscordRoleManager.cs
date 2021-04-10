@@ -101,7 +101,7 @@ namespace AndNetwork.Server.Discord.Managers
 
         private async Task UpdateChannel(SocketGuildChannel channel, DiscordChannelMetadata meta, IReadOnlyDictionary<ClanDepartmentEnum, ClanMember> advisors = null)
         {
-            await channel.ModifyAsync(options => { options.PermissionOverwrites = new Optional<IEnumerable<Overwrite>>(meta.ToOverwrites(this)); });
+            await channel.ModifyAsync(options => { options.PermissionOverwrites = new Optional<IEnumerable<Overwrite>>(meta.ToOverwrites(this, advisors)); });
         }
     }
 }
