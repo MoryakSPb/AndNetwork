@@ -60,7 +60,7 @@ namespace AndNetwork.Server.Discord.Channels
             return categoryCompare == 0 ? ChannelPosition.CompareTo(other.ChannelPosition) : categoryCompare;
         }
 
-        public IEnumerable<Overwrite> ToOverwrites(DiscordRoleManager roleManager, IReadOnlyDictionary<ClanDepartmentEnum, ClanMember> advisors = null)
+        public IEnumerable<Overwrite> ToOverwrites(DiscordRoleManager roleManager, IReadOnlyDictionary<ClanDepartmentEnum, ClanMember> advisors)
         {
             yield return new Overwrite(roleManager.EveryoneRole.Id, PermissionTarget.Role, EveryonePermissions.ToOverwritePermissions());
             yield return new Overwrite(roleManager.DefaultRole.Id, PermissionTarget.Role, MemberPermissions.ToOverwritePermissions());
@@ -71,10 +71,6 @@ namespace AndNetwork.Server.Discord.Channels
             if (DruzhinaId is not null)
             {
                 if (ProgramId is not null) throw new ArgumentException();
-                if (advisors is not null)
-                {
-                    yield return new Overwrite(advisors[Druzhina.Department].DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
-                }
                 foreach (ClanDruzhinaMember druzhinaMember in Druzhina.ActiveMembers)
                 {
                     DiscordPermissionsFlags permissions = druzhinaMember.Position switch
@@ -87,6 +83,9 @@ namespace AndNetwork.Server.Discord.Channels
                     };
                     yield return new Overwrite(druzhinaMember.Member.DiscordId, PermissionTarget.User, permissions.ToOverwritePermissions());
                 }
+
+                ClanMember advisor = advisors?[Druzhina.Department];
+                if (advisor is not null) yield return new Overwrite(advisor.DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
             }
             else
                 foreach (ClanMember member in Program.Members)

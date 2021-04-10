@@ -134,7 +134,7 @@ namespace AndNetwork.Server.Discord
                 Guild ??= base.GetGuild(GuildId);
                 await _roleManager.InitRoles();
 
-                await _channelManager.ScanChannels(data);
+                //await _channelManager.ScanChannels(data);
 
                 StringBuilder log = new();
                 foreach (ClanMember member in data.Members.ToArray())
@@ -142,11 +142,7 @@ namespace AndNetwork.Server.Discord
                     UpdateRank(member);
                     await _roleManager.UpdateRoles(member, log);
                 }
-
-                foreach (ClanDruzhina druzhina in data.Druzhinas.ToArray()) await _roleManager.UpdateDruzhina(druzhina, data);
-                foreach (ClanProgram program in data.Programs.ToArray()) await _roleManager.UpdateProgram(program, data);
                 Logger.LogInformation(log.ToString());
-
                 await _channelManager.SyncChannels(data);
                 await _channelManager.SortChannels(data);
 
