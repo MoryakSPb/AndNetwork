@@ -9,7 +9,7 @@ namespace AndNetwork.Shared
         public int Id { get; set; }
         public ClanAwardTypeEnum Type { get; set; }
         [JsonIgnore]
-        public virtual ClanMember Member { get; set; }
+        public virtual ClanMember Member { get; set; } = null!;
         public DateTime Date { get; set; }
         public string? Description { get; set; }
 
