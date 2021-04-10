@@ -1,3 +1,4 @@
+using System;
 using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
@@ -56,6 +57,7 @@ namespace AndNetwork.Server
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
             ((ExceptionLogger)app.ApplicationServices.GetService(typeof(ExceptionLogger)))?.SetEvent();
 
             app.UseResponseCompression();
@@ -87,12 +89,13 @@ namespace AndNetwork.Server
                 endpoints.MapFallbackToFile("index.html");
             });
 
-            ApplyMigrations((ClanContext)app.ApplicationServices.GetService(typeof(ClanContext)));
+            using IServiceScope scope = ((IServiceProvider)app.ApplicationServices.GetService(typeof(IServiceProvider))).CreateScope();
+            ApplyMigrations((ClanContext)scope.ServiceProvider.GetService(typeof(ClanContext)));
         }
 
         public void ApplyMigrations(ClanContext context)
         {
-            int tries = 5;
+            int tries = 8;
             while (true)
                 try
                 {
@@ -103,7 +106,7 @@ namespace AndNetwork.Server
                 {
                     if (tries > 0)
                     {
-                        Task.Delay(1500);
+                        Task.Delay(1000);
                         tries--;
                     }
                     else throw;
