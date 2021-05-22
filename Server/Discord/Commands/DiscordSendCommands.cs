@@ -86,12 +86,12 @@ namespace AndNetwork.Server.Discord.Commands
             foreach (ClanMember member in clanMembers) await _messagesManager.Send(member, message);
         }
 
-        [Command("reaction")]
+        [Command("noreaction")]
         [MinRankPermission(ClanMemberRankEnum.Advisor)]
-        public async Task SendReaction(ulong channelId, ulong messageId, string text)
+        public async Task SendNoReaction(ulong channelId, ulong messageId, string text)
         {
             using IDisposable _ = Bot.GetDatabaseConnection(out ClanContext data);
-            SocketTextChannel channel = Bot.GetGuild(266673838811512832).GetTextChannel(channelId);
+            SocketTextChannel channel = Bot.GetGuild(Bot.GuildId).GetTextChannel(channelId);
             if (channel is null)
             {
                 await ReplyAsync("Канал не найден");
@@ -109,6 +109,30 @@ namespace AndNetwork.Server.Discord.Commands
             (IUser user, ClanMember member)[] targets = channel.Users.Where(x => !x.IsBot).Except(message.Reactions.SelectMany(x => message.GetReactionUsersAsync(x.Key, int.MaxValue).ToEnumerable()).SelectMany(x => x).Where(x => !x.IsBot).Distinct(comparer), comparer).Join(data.Members, x => x.Id, x => x.DiscordId, (user, member) => (user, member)).ToArray();
             await ReplyAsync(string.Join(Environment.NewLine, targets.Select(x => x.member.ToString())));
             foreach ((IUser user, ClanMember member) in targets) await _messagesManager.Send(user, member, text);
+        }
+
+        [Command("reaction")]
+        [MinRankPermission(ClanMemberRankEnum.Advisor)]
+        public async Task SendReaction(ulong channelId, ulong messageId, string text)
+        {
+            using IDisposable _ = Bot.GetDatabaseConnection(out ClanContext data);
+            SocketTextChannel channel = Bot.GetGuild(Bot.GuildId).GetTextChannel(channelId);
+            if (channel is null)
+            {
+                await ReplyAsync("Канал не найден");
+                return;
+            }
+
+            IMessage message = await channel.GetMessageAsync(messageId);
+            if (message is null)
+            {
+                await ReplyAsync("Сообщение не найдено");
+                return;
+            }
+
+            IUser[] users = message.Reactions.SelectMany(x => message.GetReactionUsersAsync(x.Key, int.MaxValue).ToEnumerable()).SelectMany(x => x).ToArray();
+            foreach (IUser user in users) await user.SendMessageAsync(text);
+            await ReplyAsync("Сообщение доставлено:" + Environment.NewLine + string.Join(Environment.NewLine, users.Select(x => $"<@{x.Id}>")));
         }
     }
 }
