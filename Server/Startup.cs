@@ -106,7 +106,7 @@ namespace AndNetwork.Server
                 {
                     if (tries > 0)
                     {
-                        Task.Delay(1000);
+                        Task.Delay(2500);
                         tries--;
                     }
                     else throw;

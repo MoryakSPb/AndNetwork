@@ -2,7 +2,7 @@
 {
     public class ClanElectionVoteCandidate
     {
-        public ClanMember Member { get; set; }
+        public ClanMember Member { get; set; } = null!;
         public int Votes { get; set; }
     }
 }

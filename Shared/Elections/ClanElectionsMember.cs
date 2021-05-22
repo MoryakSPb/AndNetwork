@@ -11,10 +11,10 @@ namespace AndNetwork.Shared.Elections
         [JsonIgnore]
         public ClanDepartmentEnum Department { get; set; }
         [JsonIgnore]
-        public virtual ClanElectionsVoting Voting { get; set; }
+        public virtual ClanElectionsVoting Voting { get; set; } = null!;
         [JsonIgnore]
         public int MemberId { get; set; }
-        public virtual ClanMember Member { get; set; }
+        public virtual ClanMember Member { get; set; } = null!;
         public int? Votes { get; set; }
         public Guid VoterId { get; set; }
         public bool Voted { get; set; }
@@ -22,20 +22,20 @@ namespace AndNetwork.Shared.Elections
         public int CompareTo(ClanElectionsMember? other)
         {
             if (ReferenceEquals(this, other)) return 0;
-            if (ReferenceEquals(null, other)) return 1;
+            if (other is null) return 1;
             return Nullable.Compare(Votes, other.Votes);
         }
 
         public bool Equals(ClanElectionsMember? other)
         {
-            if (ReferenceEquals(null, other)) return false;
+            if (other is null) return false;
             if (ReferenceEquals(this, other)) return true;
             return ElectionsId == other.ElectionsId && Department == other.Department && MemberId == other.MemberId;
         }
 
         public override bool Equals(object? obj)
         {
-            if (ReferenceEquals(null, obj)) return false;
+            if (obj is null) return false;
             if (ReferenceEquals(this, obj)) return true;
             if (obj.GetType() != GetType()) return false;
             return Equals((ClanElectionsMember)obj);

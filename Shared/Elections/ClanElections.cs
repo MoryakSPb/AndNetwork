@@ -10,6 +10,6 @@ namespace AndNetwork.Shared.Elections
         public DateTime AdvisorsStartDate { get; set; }
         public ClanElectionsStageEnum Stage { get; set; }
 
-        public virtual IList<ClanElectionsVoting> Voting { get; set; }
+        public virtual IList<ClanElectionsVoting> Voting { get; set; } = null!;
     }
 }

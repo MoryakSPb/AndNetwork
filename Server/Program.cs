@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace AndNetwork.Server
@@ -12,11 +13,7 @@ namespace AndNetwork.Server
             culture.NumberFormat.CurrencySymbol = "SC";
             CultureInfo.CurrentCulture = CultureInfo.CurrentUICulture = CultureInfo.DefaultThreadCurrentCulture = CultureInfo.DefaultThreadCurrentUICulture = culture;
 
-            CreateHostBuilder(args)
-#if DEBUG
-                .UseEnvironment("Development")
-#endif
-                .Build().Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

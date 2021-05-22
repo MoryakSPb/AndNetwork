@@ -20,12 +20,7 @@ namespace AndNetwork.Server.Discord.Managers
             _bot = bot;
             _roleManager = roleManager;
         }
-
-        public async Task ScanChannels(ClanContext data)
-        {
-            //TODO: Implement scan
-        }
-
+        
         public async Task SyncChannels(ClanContext data)
         {
             Dictionary<ClanDepartmentEnum, ClanMember> advisors = await data.Members.AsQueryable().Where(x => x.Rank == ClanMemberRankEnum.Advisor).ToDictionaryAsync(x => x.Department, x => x);
