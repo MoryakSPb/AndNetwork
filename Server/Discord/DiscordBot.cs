@@ -171,7 +171,7 @@ namespace AndNetwork.Server.Discord
             return result;
         }
 
-        private void UpdateRank(ClanMember member)
+        private static void UpdateRank(ClanMember member)
         {
             if (member.Druzhina is null)
             {
