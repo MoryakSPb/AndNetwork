@@ -65,8 +65,9 @@ namespace AndNetwork.Server.Discord.Managers
                 if (member.Rank >= ClanMemberRankEnum.Advisor) validRoles.Add(AdvisorRole);
                 if (member.Department != ClanDepartmentEnum.None) validRoles.Add(DepartmentRoles[member.Department]);
 
-                List<IRole> invalidRoles = userRoles.Except(validRoles).Where(x => !x.Tags.IsPremiumSubscriberRole).ToList();
-                validRoles = validRoles.Except(userRoles).Where(x => !x.Tags.IsPremiumSubscriberRole).ToList();
+                List<IRole> invalidRoles = userRoles.Except(validRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
+                validRoles = validRoles.Except(userRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
+                validRoles = validRoles.Except(userRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
 
                 invalidRoles.Remove(EveryoneRole);
                 if (invalidRoles.Count > 0) await user.RemoveRolesAsync(invalidRoles);
