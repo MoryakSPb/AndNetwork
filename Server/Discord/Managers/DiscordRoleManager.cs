@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AndNetwork.Server.Discord.Channels;
 using AndNetwork.Shared;
 using AndNetwork.Shared.Enums;
-using AndNetwork.Shared.Programs;
 using Discord;
 using Discord.WebSocket;
-using Microsoft.EntityFrameworkCore;
 
 namespace AndNetwork.Server.Discord.Managers
 {
@@ -68,9 +65,8 @@ namespace AndNetwork.Server.Discord.Managers
                 if (member.Rank >= ClanMemberRankEnum.Advisor) validRoles.Add(AdvisorRole);
                 if (member.Department != ClanDepartmentEnum.None) validRoles.Add(DepartmentRoles[member.Department]);
 
-                List<IRole> invalidRoles = userRoles.Except(validRoles).ToList();
-                validRoles = validRoles.Except(userRoles).ToList();
-
+                List<IRole> invalidRoles = userRoles.Except(validRoles).Where(x => !x.Tags.IsPremiumSubscriberRole).ToList();
+                validRoles = validRoles.Except(userRoles).Where(x => !x.Tags.IsPremiumSubscriberRole).ToList();
 
                 invalidRoles.Remove(EveryoneRole);
                 if (invalidRoles.Count > 0) await user.RemoveRolesAsync(invalidRoles);
