@@ -9,9 +9,9 @@ namespace AndNetwork.Server.Discord.Enums
 
         View = 1024,
         Read = 1115136,
-        Write = 4331785792UL,
-        Priority = 4348694336UL,
-        Moderator = 4361285568UL,
+        Write = 38691524160UL,
+        Priority = 107427909440UL,
+        Moderator = 107440500672UL,
 
         All = ulong.MaxValue,
     }
