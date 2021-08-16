@@ -90,6 +90,12 @@ namespace AndNetwork.Server.Discord.Channels
             else
                 foreach (ClanMember member in Program.Members)
                 {
+                    if (member == Program.Initiator)
+                    {
+                        yield return new Overwrite(member.DiscordId,
+                            PermissionTarget.User,
+                            DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
+                    }
                     DiscordPermissionsFlags permissions = member == Program.Initiator ? DiscordPermissionsFlags.Moderator : DiscordPermissionsFlags.Write;
                     if (member.Druzhina is not null && member.Druzhina.ActiveMembers.Any(x => x.Position == ClanDruzhinaPositionEnum.Captain && x.Member == member))
                         foreach (ClanDruzhinaMember druzhinaMember in member.Druzhina.ActiveMembers)
