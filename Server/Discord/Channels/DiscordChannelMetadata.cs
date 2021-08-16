@@ -88,11 +88,14 @@ namespace AndNetwork.Server.Discord.Channels
                 if (advisor is not null) yield return new Overwrite(advisor.DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Moderator.ToOverwritePermissions());
             }
             else
+            {
+                if (Program is null) throw new ArgumentNullException();
                 foreach (ClanMember member in Program.Members)
                 {
-                    DiscordPermissionsFlags permissions = member.Id == Program.Initiator.Id ? DiscordPermissionsFlags.Moderator : DiscordPermissionsFlags.Write;
+                    DiscordPermissionsFlags permissions = (Program.Initiator is not null && member.Id == Program.Initiator.Id) ? DiscordPermissionsFlags.Moderator : DiscordPermissionsFlags.Write;
                     yield return new Overwrite(member.DiscordId, PermissionTarget.User, permissions.ToOverwritePermissions());
                 }
+            }
         }
 
         public static bool operator <(DiscordChannelMetadata left, DiscordChannelMetadata right) => Comparer<DiscordChannelMetadata>.Default.Compare(left, right) < 0;
