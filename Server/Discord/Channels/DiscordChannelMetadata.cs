@@ -92,6 +92,13 @@ namespace AndNetwork.Server.Discord.Channels
                 if (Program is null) throw new ArgumentNullException();
                 foreach (ClanMember member in Program.Members)
                 {
+                    if (member.Druzhina is not null && member.Rank == ClanMemberRankEnum.Captain)
+                    {
+                        foreach (ClanDruzhinaMember activeMember in member.Druzhina.ActiveMembers.Where(x => x.Member.Programs.All(y => y.Id != ProgramId)))
+                        {
+                            yield return new Overwrite(activeMember.Member.DiscordId, PermissionTarget.User, DiscordPermissionsFlags.Write.ToOverwritePermissions());
+                        }
+                    }
                     DiscordPermissionsFlags permissions = (Program.Initiator is not null && member.Id == Program.Initiator.Id) ? DiscordPermissionsFlags.Moderator : DiscordPermissionsFlags.Write;
                     yield return new Overwrite(member.DiscordId, PermissionTarget.User, permissions.ToOverwritePermissions());
                 }
