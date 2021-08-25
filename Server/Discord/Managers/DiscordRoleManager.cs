@@ -44,45 +44,60 @@ namespace AndNetwork.Server.Discord.Managers
             AdvisorRole = roles.FirstOrDefault(x => x.Name == advisorRoleName) ?? await Bot.Guild.CreateRoleAsync(advisorRoleName, GuildPermissions.None, null, false, false, RequestOptions.Default);
         }
 
-        public async Task UpdateRoles(ClanMember member, StringBuilder logText = null)
+        public async Task<bool> UpdateRoles(ClanMember member, StringBuilder logText = null)
         {
             logText ??= new StringBuilder();
-            SocketGuildUser user = Bot.Guild.Users.FirstOrDefault(x => x.Id == member.DiscordId);
-            if (user is null)
+            try 
             {
-                logText.AppendLine($"{member} is not a member of the Discord server");
-                return;
-            }
+                SocketGuildUser user = Bot.Guild.Users.FirstOrDefault(x => x.Id == member.DiscordId);
+                if (user is null)
+                {
+                    logText.AppendLine($"{member} is not a member of the Discord server");
+                    return false;
+                }
 
-            List<IRole> userRoles = user.Roles.Cast<IRole>().ToList();
-            if (member.Rank > ClanMemberRankEnum.None)
+                List<IRole> userRoles = user.Roles.Cast<IRole>().ToList();
+                if (member.Rank > ClanMemberRankEnum.None)
+                {
+                    List<IRole> validRoles = new()
+                    {
+                        DefaultRole,
+                    };
+                    if (user.Hierarchy == int.MaxValue) validRoles.Add(FirstAdvisorRole);
+                    if (member.Rank >= ClanMemberRankEnum.Advisor) validRoles.Add(AdvisorRole);
+                    if (member.Department != ClanDepartmentEnum.None) validRoles.Add(DepartmentRoles[member.Department]);
+
+                    List<IRole> invalidRoles = userRoles.Except(validRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
+                    validRoles = validRoles.Except(userRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
+                    validRoles = validRoles.Except(userRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
+
+                    invalidRoles.Remove(EveryoneRole);
+                    if (invalidRoles.Count > 0) await user.RemoveRolesAsync(invalidRoles);
+                    if (validRoles.Count > 0) await user.AddRolesAsync(validRoles);
+
+                    string nickname = member.Rank >= ClanMemberRankEnum.Neophyte ? member.ToString() : null;
+                    if (user.Nickname == nickname) return true;
+                    if (user.Hierarchy == int.MaxValue) logText.AppendLine($"Bot cannot change nickname for user {user}. Change it manually to «{nickname}»");
+                    else await user.ModifyAsync(x => x.Nickname = nickname, RequestOptions.Default);
+                }
+                else if (!user.IsBot)
+                {
+                    userRoles.Remove(EveryoneRole);
+                    if (userRoles.Count > 0) await user.RemoveRolesAsync(userRoles);
+                }
+
+                return true;
+            }
+            catch (Exception e)
             {
-                List<IRole> validRoles = new()
-                                         {
-                                             DefaultRole,
-                                         };
-                if (user.Hierarchy == int.MaxValue) validRoles.Add(FirstAdvisorRole);
-                if (member.Rank >= ClanMemberRankEnum.Advisor) validRoles.Add(AdvisorRole);
-                if (member.Department != ClanDepartmentEnum.None) validRoles.Add(DepartmentRoles[member.Department]);
-
-                List<IRole> invalidRoles = userRoles.Except(validRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
-                validRoles = validRoles.Except(userRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
-                validRoles = validRoles.Except(userRoles).Where(x => x?.Tags is null || !x.Tags.IsPremiumSubscriberRole).ToList();
-
-                invalidRoles.Remove(EveryoneRole);
-                if (invalidRoles.Count > 0) await user.RemoveRolesAsync(invalidRoles);
-                if (validRoles.Count > 0) await user.AddRolesAsync(validRoles);
-
-                string nickname = member.Rank >= ClanMemberRankEnum.Neophyte ? member.ToString() : null;
-                if (user.Nickname == nickname) return;
-                if (user.Hierarchy == int.MaxValue) logText.AppendLine($"Bot cannot change nickname for user {user}. Change it manually to «{nickname}»");
-                else await user.ModifyAsync(x => x.Nickname = nickname, RequestOptions.Default);
+                logText.Append(member);
+                logText.Append(": ");
+                logText.Append(e);
+                logText.AppendLine();
+                return false;
             }
-            else if (!user.IsBot)
-            {
-                userRoles.Remove(EveryoneRole);
-                if (userRoles.Count > 0) await user.RemoveRolesAsync(userRoles);
-            }
+            
+            
         }
     }
 }

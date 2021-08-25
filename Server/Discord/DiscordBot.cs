@@ -137,12 +137,22 @@ namespace AndNetwork.Server.Discord
                 //await _channelManager.ScanChannels(data);
 
                 StringBuilder log = new();
+                bool result = true;
                 foreach (ClanMember member in data.Members.ToArray())
                 {
                     UpdateRank(member);
-                    await _roleManager.UpdateRoles(member, log);
+                    bool userResult = await _roleManager.UpdateRoles(member, log);
+                    if (!userResult) result = false;
                 }
-                Logger.LogInformation(log.ToString());
+
+                if (result)
+                {
+                    Logger.LogInformation(log.ToString());
+                }
+                else
+                {
+                    Logger.LogWarning(log.ToString());
+                }
                 await _channelManager.SyncChannels(data);
                 await _channelManager.SortChannels(data);
 
