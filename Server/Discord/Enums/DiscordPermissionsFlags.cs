@@ -7,11 +7,11 @@ namespace AndNetwork.Server.Discord.Enums
     {
         None = 0,
 
-        View = 1024,
-        Read = 1115136,
-        Write = 38691524160UL,
-        Priority = 107427909440UL,
-        Moderator = 107440500672UL,
+        View = 2098176,
+        Read = 3212288,
+        Write = 176130477632UL,
+        Priority = 244866862912UL,
+        Moderator = 262059323328UL,
 
         All = ulong.MaxValue,
     }
