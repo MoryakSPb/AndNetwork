@@ -74,6 +74,7 @@ namespace AndNetwork.Server
 
         public async Task StartVote(ClanContext data)
         {
+            CurrentElections ??= data.Elections.First(x => x.Stage != ClanElectionsStageEnum.Ended);
             CurrentElections = await data.Elections.FindAsync(CurrentElectionsId);
             foreach (ClanMember member in data.Members.AsQueryable().Where(x => x.Department > ClanDepartmentEnum.None).ToArray())
             {
