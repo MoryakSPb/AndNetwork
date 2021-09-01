@@ -94,10 +94,17 @@ namespace AndNetwork.Server.Discord.Commands
         [MinRankPermission(ClanMemberRankEnum.FirstAdvisor)]
         public async Task Start()
         {
-            using IDisposable _ = Bot.GetDatabaseConnection(out ClanContext data);
-            await _electionsService.StartVote(data);
-            await ReplyAsync("Голосование запущено");
-            await _electionsService.UpdateMessages(Bot, data);
+            try
+            {
+                using IDisposable _ = Bot.GetDatabaseConnection(out ClanContext data);
+                await _electionsService.StartVote(data);
+                await ReplyAsync("Голосование запущено");
+                await _electionsService.UpdateMessages(Bot, data);
+            }
+            catch (Exception e)
+            {
+                await ReplyAsync(e.ToString());
+            }
         }
 
         [Command("end")]
